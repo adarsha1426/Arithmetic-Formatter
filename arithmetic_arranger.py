@@ -41,5 +41,5 @@ def arithmetic_arranger(problems, solver = False):
         end_result =numerator + "\n" + denomenator + "\n" + hiphens + "\n" + solution_number
     else:
         end_result=numerator + "\n" + denomenator + "\n" + hiphens
-    return end_result
+    return end_result 
 print(arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], ))
